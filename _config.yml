@@ -1,10 +1,11 @@
 # Mandatory settings
 
-blog_theme: light # Or use dark
-name: Chalk
+name: Daniel Howard's Blog
+baseurl: /blog
 paginate: 25
-url: # add your site url (format: https://example.com)
-
+paginate_path: "/posts/page/:num/"
+url: https://dphow.github.io/blog # add site url http://example.com/
+blog_theme: dark # Or use light
 
 # Optional settings
 
@@ -15,14 +16,15 @@ ga_analytics: # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
+about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 social:
   dribbble: # Add your Dribbble handle
-  facebook: # Add your Facebook handle
+  facebook: FinalDanish # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
-  twitter: # Add your Twitter handle
-  email: # Add your Email address
+  github: dphow # Add your GitHub handle
+  linkedin: in/dphoward # Add your LinkedIn handle
+  twitter: dphow # Add your Twitter handle
+  email: dhoward3@nd.edu # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
