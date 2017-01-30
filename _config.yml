@@ -1,7 +1,6 @@
 # Mandatory settings
 
 name: Daniel Howard's Blog
-baseurl: /blog
 paginate: 25
 paginate_path: "/posts/page/:num/"
 url: https://dphow.github.io/blog # add site url http://example.com/
@@ -9,11 +8,10 @@ blog_theme: dark # Or use light
 
 # Optional settings
 
-about_enabled: false # Change to true if you wish to show an icon in the navigation that redirects to the about page
-baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
-discus_identifier: # Add your Disqus identifier
-ga_analytics: # Add your GA Tracking Id
+baseurl: /blog/ # Set if blog doesn't sit at the root of the domain (format: /blog)
 local_fonts: false # Change to true if you wish to use local fonts
+discus_identifier: dphow # Add your Disqus identifier
+ga_analytics: UA-91183310-1 # Add your GA Tracking Id
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
