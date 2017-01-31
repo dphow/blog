@@ -1,7 +1,7 @@
 # Mandatory settings
 
 name: Daniel Howard's Blog
-baseurl: /
+baseurl: /blog
 paginate: 25
 paginate_path: "/posts/page/:num/"
 url: https://dphow.github.io/blog # add site url http://example.com/
