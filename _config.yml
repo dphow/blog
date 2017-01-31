@@ -3,7 +3,7 @@
 name: Daniel Howard's Blog
 paginate: 25
 paginate_path: "/posts/page/:num/"
-url: https://dphow.github.io/blog # add site url http://example.com/
+url: https://dphow.github.io/blog/ # add site url http://example.com/
 blog_theme: dark # Or use light
 
 # Optional settings
