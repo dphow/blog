@@ -80,7 +80,7 @@ brew install npm
 Next setup your environment:
 
 {% highlight bash %}
-bin/setup
+npm run setup
 {% endhighlight %}
 
 ## Development
@@ -88,7 +88,7 @@ bin/setup
 Run Jekyll:
 
 {% highlight bash %}
-bundle exec jekyll serve
+npm run local
 {% endhighlight %}
 
 ## Deploy to GitHub Pages
@@ -96,14 +96,28 @@ bundle exec jekyll serve
 Run this in the root project folder in your console:
 
 {% highlight bash %}
-bin/deploy
+npm run publish
 {% endhighlight %}
 
 You can find more info on how to use the gh-pages branch and a custom domain [here](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
 [View this](https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci) for more info about automated deployment with Circle CI.
 
+**Important note**: Chalk does not support the standard way of Jekyll hosting on GitHub Pages. You need to deploy your working branch (can be any branch, for xxx.github.io users: use another branch than `master`) with the `npm run publish` command. Reason for this is because Chalk uses Jekyll plugins that aren't supported by GitHub pages. The `npm run publish` command will automatically build the entire project, then push it to the `gh-pages` branch of your repo. The script creates that branch for you so no need to create it yourself. Also, if you are developing a **project site**, you must set the `baseurl` in `_config.yml` to the name of your repository.
+
 _If you have any questions about using or configuring Chalk please create an issue <a href="" title="here" target="_blank">here</a>!_
+
+## License
+
+MIT License
+
+## Contributing
+
+1. Fork it (https://github.com/[my-github-username]/chalk/fork)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
 ## How to Configure Chalk
 
