@@ -1,4 +1,0 @@
----
-slug: monsoons
-name: Monsoons
----

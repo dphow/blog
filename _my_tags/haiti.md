@@ -1,4 +1,0 @@
----
-slug: haiti
-name: Haiti
----

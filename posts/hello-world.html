@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Daniel Howard's Blog | Hello World! (and info about Chalk, this blog template)</title>
+  <meta name="description" content="Every new skill we learn is a journey into a brave new world, so we must say hello (and give credit where credit is due).">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Hello World! (and info about Chalk, this blog template)">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dphow.github.io/blog/posts/hello-world">
+  <meta property="og:description" content="Every new skill we learn is a journey into a brave new world, so we must say hello (and give credit where credit is due).">
+  <meta property="og:site_name" content="Daniel Howard's Blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://dphow.github.io/blog/posts/hello-world">
+  <meta name="twitter:title" content="Hello World! (and info about Chalk, this blog template)">
+  <meta name="twitter:description" content="Every new skill we learn is a journey into a brave new world, so we must say hello (and give credit where credit is due).">
+
+  
+    <meta property="og:image" content="https://dphow.github.io/blog/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="https://dphow.github.io/blog/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="https://dphow.github.io/blog/feed.xml" type="application/rss+xml" rel="alternate" title="Daniel Howard's Blog Last 10 blog posts" />
+
+  
+
+  
+    <link rel="icon" type="image/x-icon" href="/blog/assets/favicon-D-dark-fdfb9dad233db718c2448c272c435ec85dfbf2d2a00d2e082afb6652a7eab860.ico">
+    <link rel="apple-touch-icon" href="/blog/assets/apple-touch-icon-D-dark-58d0e8a179e1731e9eaadda026e6c33d1560d5660ebf61dbf377f9b6c7cbc19d.png">
+    <link rel="stylesheet" type="text/css" href="/blog/assets/dark-284e667ce8998bcb49ae91e162af74b4056a273729d9686bc105bd7883221c3c.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav scrollappear">
+  <a href="/blog/" class="header-logo" title="Daniel Howard's Blog">Daniel Howard's Blog</a>
+  <ul class="header-links">
+    
+      <li>
+        <a href="http://dphow.github.io" title="About me">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-about">
+  <use href="/blog/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about" xlink:href="/blog/assets/about-ecf154b571ab8034ae00aeed91a3b7ad68db80b46d958753ad6216c919486e88.svg#icon-about"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://twitter.com/dphow" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/blog/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/blog/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://www.facebook.com/FinalDanish" rel="noreferrer noopener" target="_blank" title="Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-facebook">
+  <use href="/blog/assets/facebook-72c99b26d37bee65607720abb23d26b44ef30cca1187f98b0d9305be1230b1bf.svg#icon-facebook" xlink:href="/blog/assets/facebook-72c99b26d37bee65607720abb23d26b44ef30cca1187f98b0d9305be1230b1bf.svg#icon-facebook"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="https://github.com/dphow" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/blog/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/blog/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/dphoward" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/blog/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/blog/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://instagram.com/FinalDanish" rel="noreferrer noopener" target="_blank" title="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-instagram">
+  <use href="/blog/assets/instagram-37f85bc75b43ecc4c114d9a46f846327fe13c5893787c6afbcfef9d30d58bd9e.svg#icon-instagram" xlink:href="/blog/assets/instagram-37f85bc75b43ecc4c114d9a46f846327fe13c5893787c6afbcfef9d30d58bd9e.svg#icon-instagram"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="https://play.spotify.com/user/FinalDanish" rel="noreferrer noopener" target="_blank" title="Spotify">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-spotify">
+  <use href="/blog/assets/spotify-e5b8d68b83f4ca44a4a6dfbe2240ea050cb4d2fd38c1628be02cf2f61abe19f6.svg#icon-spotify" xlink:href="/blog/assets/spotify-e5b8d68b83f4ca44a4a6dfbe2240ea050cb4d2fd38c1628be02cf2f61abe19f6.svg#icon-spotify"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="https://www.youtube.com/user/FinalDanish" rel="noreferrer noopener" target="_blank" title="Youtube">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-youtube">
+  <use href="/blog/assets/youtube-e8aaee4449ebf16dda44d55c8f82df4e40f62ca5b3edc8a34fe71707eb9cf990.svg#icon-youtube" xlink:href="/blog/assets/youtube-e8aaee4449ebf16dda44d55c8f82df4e40f62ca5b3edc8a34fe71707eb9cf990.svg#icon-youtube"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="https://steamcommunity.com/id/FinalDanish" rel="noreferrer noopener" target="_blank" title="Steam">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-steam">
+  <use href="/blog/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam" xlink:href="/blog/assets/steam-5a64f30e6aeb1131fff4031b3a8eaaead4db848a4dd9df5cfaf5fe625dc68585.svg#icon-steam"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="https://blockexplorer.com/address/1AN2rrZCj8kdBNjQSRXDMTJiDcRXsnn62i" rel="noreferrer noopener" target="_blank" title="Bitcoin">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-bitcoin">
+  <use href="/blog/assets/bitcoin-5b11c4ea91819f58e20217dfecd78cbb5c0f33928455c3b00485daaac83f433e.svg#icon-bitcoin" xlink:href="/blog/assets/bitcoin-5b11c4ea91819f58e20217dfecd78cbb5c0f33928455c3b00485daaac83f433e.svg#icon-bitcoin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+      <li>
+        <a href="mailto:dhoward3@nd.edu" title="Email">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-email">
+  <use href="/blog/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email" xlink:href="/blog/assets/email-782473193bf750036fdb90e8daa075508a20509d01854c09f3237c144a3f0601.svg#icon-email"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+      <li>
+        <a href="/blog/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/blog/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/blog/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+<!-- Get the tag name for every tag on the site and set them
+to the `site_tags` variable. -->
+
+
+<!-- `tag_words` is a sorted array of the tag names. -->
+
+<header class="article-header">
+  <p>Posts by topic</p>
+  <div class="article-list-footer">
+    
+    
+    <div class="article-list-tags">
+      <a href="/blog/tag/haiti" class="tag">haiti
+        <span>(2)</span>
+      </a>
+    </div>
+    
+    
+    <div class="article-list-tags">
+      <a href="/blog/tag/monsoons" class="tag">monsoons
+        <span>(1)</span>
+      </a>
+    </div>
+    
+    
+    <div class="article-list-tags">
+      <a href="/blog/tag/personal" class="tag">personal
+        <span>(4)</span>
+      </a>
+    </div>
+    
+    
+    <div class="article-list-tags">
+      <a href="/blog/tag/research" class="tag">research
+        <span>(1)</span>
+      </a>
+    </div>
+    
+  </div>
+</header>
+        <article class="article scrollappear">
+          <header class="article-header">
+            <h1>Hello World! (and info about Chalk, this blog template)</h1>
+            <p>Every new skill we learn is a journey into a brave new world, so we must say hello (and give credit where credit is due).</p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                February 1, 2017
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  10 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/blog/tag/personal">personal</a>
+                
+              </div>
+            </div>
+          </header>
+
+          <div class="article-content">
+            <p>In the throws of a stressful PhD, I’ve decided to start a blog. And so I say “Hello World!” as is customarily expected by any programmer. I plan to discuss random ideations when I feel like journaling while also creating a research journal of what I study each day to not only help me process what I read/work on but also practice my writing and communication skills. I’ll probably alternate every other day or so on these two areas.</p>
+
+<p>I tend to be open with my thoughts, which will often be a little blunt or risque sometimes. But I believe being my authentic self, especially in public, will not only help me in grappling with my own struggles and learning to overcome them, but will also help others in realizing that for at least one other person, they could be dealing with similar issues as them. Thus, I hope my experiences could impart some useful information to whomever takes the time to read this.</p>
+
+<p>For instance I find myself to be depressed as of late for various reasons including not being as productive as I’d like to be and missing out on visiting friends because these additional years of graduate school takes over all my time and obligations, thus disallowing myself from being able to leave the campus at most times. It’s the sacrifice I, and I believe most researchers, make as we pursue this path of enlightenment to understand the problems we are most passionate about. I incredibly appreciate the opportunity to be able to continue spending my time improving myself through education, but I’m getting more and more anxious to find ways out of this ivory tower and try my hands on making an impact on the ground and not in academic articles.</p>
+
+<p>That’s probably why I’ve sought out travel opportunities like to India, Indonesia, Barcelona, and my next trip Haiti. I still regret that I was so engrossed in my work last year that I skipped out going to Japan with some amazing friends, but I shouldn’t dwell on the past. I can assure myself knowing I’ll get there eventually.</p>
+
+<p>In order to help myself better enjoy graduate school (or at least get over this current hump I’ve made for myself), I plan to not guilt myself about my choices and allow myself to take time off and escape from the walls of our offices/labs/minds. I hope academic institutions will eventually support and encourage this more often, but as was shown in our RCR training videos, a postdoc coerced the audience that staying late in the lab, like all academics should, was necesary, thus missing spending time with his wife for an upcomoing ultrasound was in fact justified. Science over marriage. Back to reality, scheduling in time to decompress, like all jobs, with something completely different would be good. Rock climbing and going to the gym regularly again would be great! Too often, especially in American culture, people like me guilt ourselves into working tirelessly while forgetting the simpler things in life like friends, staring at the sky, or a pickup soccer game. I don’t want to be stuck in a constant loop of consumerist pursuit because in truth that is not what I want.</p>
+
+<p>What I want from my work is an opportunity to understand how the universe and the environment around me works. But what I want for myself is simply to live contented, where I can be one with the people I share my life with while also being able to live in awe of the Earth we come from. Beauty can be found in the most simplest of things, but if I let the pursuit of work be corrupted by capitalist ideals, then I will miss out on just appreciating the moment. We don’t always need to be looking forward to that next rung of the career ladder. Too much time spent planning on what we could be takes away from who we are in the now.</p>
+
+<p>That’s enough rambling on an opening post. I also need to give credit to the designer of this template. Learn more about this <a href="https://github.com/nielsenramon/chalk">Jekyll Chalk template here</a>.</p>
+
+<p>Installing it was a little hard due to Windows and Cygwin never getting along and my noob experience with ruby in Linux, but I came through. It’s only unfortunate that due to Github’s limited compatibility with some plugins I’m using, I must manually build sites and upload to Github instead of just editting my markdown and pushing that (Github pages can build simple Jekyll sites automatically). Learn about Jekyll <a href="https://jekyllrb.com/">here</a>.</p>
+
+<p><br><br><br>
+Lastly, I’m including all the original content of this Chalk template introduction content below to maintain a record (and serve as manual to you) if you wish to recreate smething like this site for yourself.</p>
+
+<h2 id="introducing-chalk">Introducing Chalk</h2>
+
+<p><a href="/blog/assets/documentation/chalk-intro@2x-d0c0ee7141c3804d3a7c0db8992cbbb8248913a9f85923f1d3fa8343093978f0.png">
+  <img src="/blog/assets/documentation/chalk-intro-271e4ce9f324487d7259037995e1670f8e9a2ed4cca2c66a1d86ce64eeaf9355.png" alt="Chalk intro" class="zooming" data-rjs="/blog/assets/documentation/chalk-intro@2x-d0c0ee7141c3804d3a7c0db8992cbbb8248913a9f85923f1d3fa8343093978f0.png" data-zooming-width="1600" data-zooming-height="1200">
+</a></p>
+
+<p><a href="https://github.com/nielsenramon/chalk">Download Chalk here!</a></p>
+
+<h4 id="features">Features:</h4>
+<ul>
+  <li>Dark and Light theme.</li>
+  <li>Filter on tags.</li>
+  <li>Customizable pagination.</li>
+  <li>Beautified link sharing in Facebook and other social media.</li>
+  <li>Automatic time to read post indicator.</li>
+  <li>Automatic RSS feed.</li>
+  <li>About page.</li>
+  <li>404 page.</li>
+  <li>SEO optimized.</li>
+  <li>PageSpeed optimized.</li>
+  <li>Cross browser support (supports all modern browsers).</li>
+  <li>Media embed for videos.</li>
+  <li>Enlarge images on click (like Medium).</li>
+</ul>
+
+<h4 id="integrations">Integrations</h4>
+<ul>
+  <li><a href="https://analytics.google.com/analytics/web/">Google Analytics</a></li>
+  <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li><a href="https://disqus.com/">Disqus</a></li>
+  <li><a href="http://ionicons.com/">Ionicons</a></li>
+  <li>Social media links</li>
+</ul>
+
+<h4 id="used-tools">Used tools</h4>
+<ul>
+  <li><a href="https://github.com/postcss/autoprefixer">Autoprefixer</a></li>
+  <li><a href="http://bower.io/">Bower</a></li>
+  <li><a href="https://circleci.com/">Circle CI</a></li>
+  <li><a href="https://github.com/gjtorikian/html-proofer">Html-proofer</a></li>
+  <li><a href="http://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://github.com/jekyll/jekyll-assets">Jekyll assets</a></li>
+  <li><a href="https://github.com/jekyll/jekyll-sitemap">Jekyll Sitemap</a></li>
+  <li>
+<a href="https://html5boilerplate.com/">HTML5 Boilerplate</a> (Influenced by)</li>
+  <li><a href="http://kickster.nielsenramon.com/">Kickster</a></li>
+  <li><a href="http://imulus.github.io/retinajs/">Retina.js</a></li>
+  <li><a href="http://stacss.nielsenramon.com/">STACSS</a></li>
+</ul>
+
+<p><a href="/blog/assets/documentation/enlarge@2x-8a9c8f0ff682b54f8fb47a6b1556b1d81a1d95d992e7bbe1441d929dc8d4e58d.gif">
+  <img src="/blog/assets/documentation/enlarge-2b24994b3cc958a07c49e590097655412ce5a3f1ed2bec00d0e2cb2a725115b8.gif" alt="Enlarge image feature" class="zooming" data-rjs="/blog/assets/documentation/enlarge@2x-8a9c8f0ff682b54f8fb47a6b1556b1d81a1d95d992e7bbe1441d929dc8d4e58d.gif" data-zooming-width="960" data-zooming-height="877">
+</a></p>
+
+<h2 id="installation">Installation</h2>
+
+<p>If you haven’t installed the following tools then go ahead and do so (make sure you have <a href="http://brew.sh/">Homebrew</a> installed):</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">brew <span class="nb">install </span>ruby
+brew <span class="nb">install </span>npm</code></pre></figure>
+
+<p>Next setup your environment:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm run setup</code></pre></figure>
+
+<h2 id="development">Development</h2>
+
+<p>Run Jekyll:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm run <span class="nb">local</span></code></pre></figure>
+
+<h2 id="deploy-to-github-pages">Deploy to GitHub Pages</h2>
+
+<p>Run this in the root project folder in your console:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm run publish</code></pre></figure>
+
+<p>You can find more info on how to use the gh-pages branch and a custom domain <a href="https://help.github.com/articles/quick-start-setting-up-a-custom-domain/">here</a>.</p>
+
+<p><a href="https://github.com/nielsenramon/kickster#automated-deployment-with-circle-ci">View this</a> for more info about automated deployment with Circle CI.</p>
+
+<p><strong>Important note</strong>: Chalk does not support the standard way of Jekyll hosting on GitHub Pages. You need to deploy your working branch (can be any branch, for xxx.github.io users: use another branch than <code class="highlighter-rouge">master</code>) with the <code class="highlighter-rouge">npm run publish</code> command. Reason for this is because Chalk uses Jekyll plugins that aren’t supported by GitHub pages. The <code class="highlighter-rouge">npm run publish</code> command will automatically build the entire project, then push it to the <code class="highlighter-rouge">gh-pages</code> branch of your repo. The script creates that branch for you so no need to create it yourself. Also, if you are developing a <strong>project site</strong>, you must set the <code class="highlighter-rouge">baseurl</code> in <code class="highlighter-rouge">_config.yml</code> to the name of your repository.</p>
+
+<p><em>If you have any questions about using or configuring Chalk please create an issue <a href="" title="here" target="_blank">here</a>!</em></p>
+
+<h2 id="license">License</h2>
+
+<p>MIT License</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<ol>
+  <li>Fork it (https://github.com/[my-github-username]/chalk/fork)</li>
+  <li>Create your feature branch (<code class="highlighter-rouge">git checkout -b my-new-feature</code>)</li>
+  <li>Commit your changes (<code class="highlighter-rouge">git commit -am 'Add some feature'</code>)</li>
+  <li>Push to the branch (<code class="highlighter-rouge">git push origin my-new-feature</code>)</li>
+  <li>Create a new Pull Request</li>
+</ol>
+
+<h2 id="how-to-configure-chalk">How to Configure Chalk</h2>
+
+<p>The <code class="highlighter-rouge">_config.yml</code> file is the most important one. It contains the basic setup of your project.
+Some parts are preconfigured and shouldn’t be touched as the comments state.
+Of course if you are familiar with Jekyll you can change whatever you want.</p>
+
+<p>Note: You do not <em>have</em> to change anything. Chalk works out of the box. I do recommend changing the <code class="highlighter-rouge">_config.yml</code> to suit your needs.</p>
+
+<h3 id="mandatory-settings">Mandatory settings</h3>
+
+<figure class="highlight"><pre><code class="language-yml" data-lang="yml"><span class="c1"># Mandatory settings</span>
+
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s">/</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Chalk</span>
+<span class="na">paginate</span><span class="pi">:</span> <span class="s">25</span>
+<span class="na">paginate_path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/posts/page/:num/"</span>
+<span class="na">url</span><span class="pi">:</span> <span class="s">http://chalk.nielsenramon.com</span> <span class="c1"># add site url http://example.com/</span>
+<span class="na">blog_theme</span><span class="pi">:</span> <span class="s">light</span> <span class="c1"># Or use dark</span></code></pre></figure>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">baseurl</code>: Set baseurl to match the production URL without the host.</li>
+  <li>
+<code class="highlighter-rouge">name</code>: Used as the page title and throughout your project as the default name.</li>
+  <li>
+<code class="highlighter-rouge">paginate</code>: Define how much posts should be shown on the homepage for each page.</li>
+  <li>
+<code class="highlighter-rouge">paginate_path</code>: Change the path name to something else for paginated pages.</li>
+  <li>
+<code class="highlighter-rouge">url</code>: Your production url (http://example.com).</li>
+  <li>
+<code class="highlighter-rouge">blog_theme</code>: 2 options here, <code class="highlighter-rouge">light</code> or <code class="highlighter-rouge">dark</code>. Choose which design you prefer.</li>
+</ul>
+
+<h3 id="optional-settings">Optional settings</h3>
+
+<figure class="highlight"><pre><code class="language-yml" data-lang="yml"><span class="c1"># Optional settings</span>
+
+<span class="na">discus_identifier</span><span class="pi">:</span> <span class="c1"># Add your Disqus identifier</span>
+<span class="na">ga_analytics</span><span class="pi">:</span> <span class="c1"># Add your GA Tracking Id</span>
+<span class="na">rss_enabled</span><span class="pi">:</span> <span class="no">true</span> <span class="c1"># Change to false if not</span>
+<span class="na">social</span><span class="pi">:</span>
+  <span class="na">dribbble</span><span class="pi">:</span> <span class="c1"># Add your Dribbble link</span>
+  <span class="na">facebook</span><span class="pi">:</span> <span class="c1"># Add your Facebook link</span>
+  <span class="na">github</span><span class="pi">:</span> <span class="c1"># Add your GitHub link</span>
+  <span class="na">linkedin</span><span class="pi">:</span> <span class="c1"># Add your LinkedIn link</span>
+  <span class="na">twitter</span><span class="pi">:</span> <span class="c1"># Add your Twitter handle</span></code></pre></figure>
+
+<ul>
+  <li>
+<code class="highlighter-rouge">discus_identifier</code>: If you like to use Disqus for comments on each blog post, you can add the Disqus identifier here and it will popup automatically.</li>
+  <li>
+<code class="highlighter-rouge">ga_analytics</code>: Add Google Analytics Tracking ID here.</li>
+  <li>
+<code class="highlighter-rouge">rss_enabled</code>: When set to <code class="highlighter-rouge">true</code>, the rss icon in the top navigation will show up and people will be able to subscribe to your rss feed.</li>
+  <li>
+<code class="highlighter-rouge">social</code>: Add you social links in here. When filled in they will show up in the navigation.</li>
+</ul>
+
+<h3 id="other-settings">Other settings</h3>
+
+<p>Other than the <code class="highlighter-rouge">_config.yml</code> you can change a lot more in the project.</p>
+
+<h4 id="tags">Tags</h4>
+
+<p>To add tags you must add a file with the tag name in <code class="highlighter-rouge">_my_tags</code>.
+In the file you add 2 variables: <code class="highlighter-rouge">slug</code> used to reference the tag and <code class="highlighter-rouge">name</code> which is displayed in the article header.</p>
+
+<figure class="highlight"><pre><code class="language-yml" data-lang="yml"><span class="c1"># _my_tags/design.md</span>
+<span class="nn">---</span>
+<span class="na">slug</span><span class="pi">:</span> <span class="s">design</span>
+<span class="na">name</span><span class="pi">:</span> <span class="s">Design</span>
+<span class="nn">---</span></code></pre></figure>
+
+<h4 id="scss">SCSS</h4>
+
+<p>You can change colors, fonts, sizes in the <code class="highlighter-rouge">_assets/stylesheets/_variables.scss</code> file.
+For each specific theme (light or dark) you can change the variables in <code class="highlighter-rouge">_assets/stylesheets/dark.scss</code> and <code class="highlighter-rouge">_assets/stylesheets/light.scss</code>.</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="c1">// =============================================================================</span>
+<span class="c1">// Variables</span>
+<span class="c1">// =============================================================================</span>
+
+<span class="c1">// Typography</span>
+<span class="c1">// =============================================================================</span>
+
+<span class="nv">$sans-serif</span><span class="p">:</span> <span class="s2">"Lato"</span><span class="o">,</span> <span class="n">Helvetica</span><span class="o">,</span> <span class="n">Arial</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+<span class="nv">$serif</span><span class="p">:</span> <span class="s2">"Cormorant Garamond"</span><span class="o">,</span> <span class="n">Courier</span><span class="o">,</span> <span class="nb">serif</span><span class="p">;</span>
+<span class="nv">$base-font-family</span><span class="p">:</span> <span class="nv">$sans-serif</span><span class="p">;</span>
+<span class="nv">$base-font-weight</span><span class="p">:</span> <span class="m">400</span><span class="p">;</span>
+<span class="nv">$base-font-weight-bold</span><span class="p">:</span> <span class="m">700</span><span class="p">;</span>
+
+<span class="c1">// Colors</span>
+<span class="c1">// =============================================================================</span>
+
+<span class="c1">// Brand colors</span>
+
+<span class="nv">$brand-success</span><span class="p">:</span> <span class="mh">#1fbf92</span><span class="p">;</span>
+<span class="nv">$brand-danger</span><span class="p">:</span> <span class="mh">#e74b3c</span><span class="p">;</span>
+<span class="nv">$brand-primary</span><span class="p">:</span> <span class="mh">#3449ed</span><span class="p">;</span>
+<span class="nv">$brand-warning</span><span class="p">:</span> <span class="mh">#f1c90b</span><span class="p">;</span>
+
+<span class="c1">// Sizes</span>
+<span class="c1">// =============================================================================</span>
+
+<span class="c1">// Grid</span>
+
+<span class="nv">$columns</span><span class="p">:</span> <span class="m">12</span><span class="p">;</span>
+<span class="nv">$max-width</span><span class="p">:</span> <span class="m">650px</span><span class="p">;</span>
+<span class="nv">$gutter</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="nv">$one-column</span><span class="p">:</span> <span class="m">100%</span> <span class="o">/</span> <span class="nv">$columns</span><span class="p">;</span>
+<span class="nv">$negative-gutter</span><span class="p">:</span> <span class="m">0</span> <span class="o">-</span> <span class="nv">$gutter</span><span class="p">;</span>
+
+<span class="c1">// Font sizes</span>
+
+<span class="nv">$base-font-size</span><span class="p">:</span> <span class="m">16px</span><span class="p">;</span>
+<span class="nv">$base-line-height</span><span class="p">:</span> <span class="m">1</span><span class="mi">.8</span><span class="p">;</span>
+
+<span class="c1">// Box sizes</span>
+
+<span class="nv">$base-border-radius</span><span class="p">:</span> <span class="m">4px</span><span class="p">;</span>
+
+<span class="c1">// Effects</span>
+<span class="c1">// =============================================================================</span>
+
+<span class="nv">$base-transition-speed</span><span class="p">:</span> <span class="mi">.2s</span><span class="p">;</span></code></pre></figure>
+
+<h4 id="fonts">Fonts</h4>
+
+<p>Chalk uses Google Fonts by default. You can change the font in <code class="highlighter-rouge">_includes/javascripts.html</code>.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nx">WebFont</span><span class="p">.</span><span class="nx">load</span><span class="p">({</span>
+    <span class="na">google</span><span class="p">:</span> <span class="p">{</span>
+      <span class="na">families</span><span class="p">:</span> <span class="p">[</span><span class="s1">'Cormorant Garamond:700'</span><span class="p">,</span> <span class="s1">'Lato:300,400,700'</span><span class="p">]</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span></code></pre></figure>
+
+<h4 id="footer">Footer</h4>
+
+<p>Changing the text in the footer is easy. It can be found in <code class="highlighter-rouge">_includes/footer.html</code>.</p>
+
+<p><em>If you have any questions about using or configuring Chalk please create an issue <a href="" title="here" target="_blank">here</a>!</em></p>
+
+<h2 id="chalk-sample-post-with-all-the-elements">Chalk Sample Post with All the Elements</h2>
+
+<p>Chalk uses the default Jekyll syntax highlighting gem Rouge. It has a customized style for both light and dark theme.
+Use the <code class="highlighter-rouge">highlight</code> tag to use the following code highlighting your preferred language:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- This is a comment --&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"grid"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h1&gt;</span>This is a heading<span class="nt">&lt;/h1&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    This is a paragraph text.
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<h2 id="headings">Headings</h2>
+
+<p>Chalk includes 3 headings by default:</p>
+
+<h2 id="heading-first-level">Heading first level</h2>
+<h3 id="heading-second-level">Heading second level</h3>
+<h4 id="heading-third-level">Heading third level</h4>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gu">## Heading first level</span>
+<span class="gu">### Heading second level</span>
+<span class="gu">#### Heading third level</span></code></pre></figure>
+
+<h2 id="lists">Lists</h2>
+
+<p>Unordered list example:</p>
+<ul>
+  <li>Unordered list item 1</li>
+  <li>Unordered list item 2</li>
+  <li>Unordered list item 3</li>
+  <li>Unordered list item 4</li>
+</ul>
+
+<p>Ordered list example:</p>
+<ol>
+  <li>Ordered list item 1</li>
+  <li>Ordered list item 1</li>
+  <li>Ordered list item 1</li>
+  <li>Ordered list item 1</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">*</span> Unordered list item 1
+<span class="p">*</span> Unordered list item 2
+<span class="p">
+1.</span> Order list item 1
+<span class="p">2.</span> Order list item 1</code></pre></figure>
+
+<h2 id="emoji-support-star">Emoji support <img class="emoji" title=":star:" alt=":star:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2b50.png" height="20" width="20">
+</h2>
+
+<p>Emoji’s can be used everywhere in <img class="emoji" title=":cat2:" alt=":cat2:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f408.png" height="20" width="20"> your markdown!</p>
+
+<h2 id="quotes">Quotes</h2>
+
+<p>A quote looks like this:</p>
+
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna.</p>
+</blockquote>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gt">&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span>
+incididunt ut labore et dolore magna.</code></pre></figure>
+
+<h2 id="media">Media</h2>
+
+<p>Images can be added with a default <code class="highlighter-rouge">&lt;img&gt;</code> tag.
+If you wish that an image can be enlarged on click use the image include tag. You can pass 3 variables:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge">path</code>: Image to show in the blog post.</li>
+  <li>
+<code class="highlighter-rouge">path-detail</code>: Image to show when enlarging.</li>
+  <li>
+<code class="highlighter-rouge">alt</code>: Alt text for image in blog post.</li>
+</ul>
+
+<p><a href="/blog/assets/documentation/sample-image@2x-f8eae5b88a72da0c485e1c9821020764ff2c5b7d3a5c05f1e14fb2a276c07781.jpg">
+  <img src="/blog/assets/documentation/sample-image-0a264584b152aa8d86f61525d05ae1131787d0a1029aa1cb7e3e4148b5d34755.jpg" alt="Sample image" class="zooming" data-rjs="/blog/assets/documentation/sample-image@2x-f8eae5b88a72da0c485e1c9821020764ff2c5b7d3a5c05f1e14fb2a276c07781.jpg" data-zooming-width="1220" data-zooming-height="813">
+</a></p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/blog/assets/documentation/sample-image@2x-f8eae5b88a72da0c485e1c9821020764ff2c5b7d3a5c05f1e14fb2a276c07781.jpg"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/blog/assets/documentation/sample-image-0a264584b152aa8d86f61525d05ae1131787d0a1029aa1cb7e3e4148b5d34755.jpg"</span> <span class="na">alt=</span><span class="s">"Sample image"</span> <span class="na">class=</span><span class="s">"zooming"</span>
+    <span class="na">data-rjs=</span><span class="s">"/blog/assets/documentation/sample-image@2x-f8eae5b88a72da0c485e1c9821020764ff2c5b7d3a5c05f1e14fb2a276c07781.jpg"</span>
+    <span class="na">data-zooming-width=</span><span class="s">"1220"</span>
+    <span class="na">data-zooming-height=</span><span class="s">"813"</span>
+  <span class="nt">/&gt;</span>
+<span class="nt">&lt;/a&gt;</span></code></pre></figure>
+
+<p>Videos can be added and are responsive by default (4x3 by default, 16x9 with extra class).</p>
+
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/vO7m8Hre72E?modestbranding=1&amp;autohide=1&amp;showinfo=1&amp;controls=1" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"embed-responsive embed-responsive-16by9"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"url-to-video"</span> <span class="na">frameborder=</span><span class="s">"0"</span> <span class="na">allowfullscreen</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+          </div>
+          <div class="article-share">
+            
+            
+            <a href="https://twitter.com/home?status=Hello+World!+(and+info+about+Chalk,+this+blog+template)%20-%20https://dphow.github.io/blog/posts/hello-world%20by%20@dphow" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+              <svg viewbox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"></path></svg>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://dphow.github.io/blog/posts/hello-world" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+              <svg viewbox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"></path></svg>
+            </a>
+            <a href="https://plus.google.com/share?url=https://dphow.github.io/blog/posts/hello-world" title="Share on Google+" rel="noreferrer noopener" target="_blank">
+              <svg viewbox="0 0 128 128"><path d="M40.7 55.9v16.1c0 0 15.6 0 22 0C59.2 82.5 53.8 88.2 40.7 88.2c-13.3 0-23.7-10.8-23.7-24.2s10.4-24.2 23.7-24.2c7.1 0 11.6 2.5 15.8 5.9 3.3-3.3 3.1-3.8 11.6-11.9 -7.2-6.6-16.8-10.6-27.4-10.6C18.2 23.3 0 41.5 0 64c0 22.5 18.2 40.7 40.7 40.7 33.6 0 41.8-29.3 39-48.8H40.7zM113.9 56.7V42.6h-10.1v14.1H89.4v10.1h14.5v14.5h10.1V66.8H128V56.7H113.9z"></path></svg>
+            </a>
+          </div>
+
+          
+            <div id="disqus_thread" class="article-comments"></div>
+            <script src="https://dphow.disqus.com/embed.js" async defer></script>
+            <noscript>Please enable JavaScript to view the comments.</noscript>
+          
+        </article>
+        <footer class="footer scrollappear">
+  <p>
+    Mathematician's love chalk. If you want to add this chalk themed blog to your website, download it <a href="https://github.com/nielsenramon/chalk" target="_blank" title="Download Chalk">here</a>.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91183310-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-91183310-1');
+  </script>
+
+
+<script src="/blog/assets/vendor-0fb4b91f7ad6c193a69224eba7a01b691a2d7528ee672607575ccc0df3aea545.js" type="text/javascript"></script>
+
+
+  <script src="/blog/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+  <script src="/blog/assets/scrollappear-e2da8ea567e418637e31266cc5302126eaa79f62a2273739086358b589a89ee6.js" type="text/javascript"></script>
+
+
+<script src="/blog/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+</body>
+</html>

@@ -1,20 +1,50 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Daniel Howard's Blog</title>
+    <description></description>
+    <link>https://dphow.github.io</link>
+    <atom:link href="https://dphow.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Japan and Where I Belong</title>
+        <description>Wow... it's been a while... Still not a reason a stop trying.</description>
+        <pubDate>Fri, 13 Jul 2018 00:00:00 +0900</pubDate>
+        <link>https://dphow.github.io/blog/posts/japan-belonging</link>
+        <guid isPermaLink="true">https://dphow.github.io/blog/posts/japan-belonging</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Monsoons, ENSO, and the Monsoon Intraseasonal Oscillation (MISO)</title>
+        <description>Starting the process of putting down my thoughts to paper... I mean chalk.</description>
+        <pubDate>Tue, 28 Mar 2017 00:00:00 +0900</pubDate>
+        <link>https://dphow.github.io/blog/posts/monsoon-miso</link>
+        <guid isPermaLink="true">https://dphow.github.io/blog/posts/monsoon-miso</guid>
+      </item>
+    
+      <item>
+        <title>Haiti and the Common Good - Part 2</title>
+        <description>The role of local communities and non-local aid.</description>
+        <pubDate>Sat, 25 Mar 2017 00:00:00 +0900</pubDate>
+        <link>https://dphow.github.io/blog/posts/haitip2</link>
+        <guid isPermaLink="true">https://dphow.github.io/blog/posts/haitip2</guid>
+      </item>
+    
+      <item>
+        <title>Haiti and the Common Good - Part 1</title>
+        <description>Strife and suffering challenge the body yet the soul lives on.</description>
+        <pubDate>Mon, 20 Mar 2017 00:00:00 +0900</pubDate>
+        <link>https://dphow.github.io/blog/posts/haitip1</link>
+        <guid isPermaLink="true">https://dphow.github.io/blog/posts/haitip1</guid>
+      </item>
+    
+      <item>
+        <title>Hello World! (and info about Chalk, this blog template)</title>
+        <description>Every new skill we learn is a journey into a brave new world, so we must say hello (and give credit where credit is due).</description>
+        <pubDate>Wed, 01 Feb 2017 00:00:00 +0900</pubDate>
+        <link>https://dphow.github.io/blog/posts/hello-world</link>
+        <guid isPermaLink="true">https://dphow.github.io/blog/posts/hello-world</guid>
+      </item>
+    
   </channel>
 </rss>
